@@ -1,0 +1,6 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/coming-soon-istr.png);
+    background-repeat: repeat;
+}
