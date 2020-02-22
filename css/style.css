@@ -1,6 +1,87 @@
-header {
+#begining {
     display: flex;
     flex-direction: column;
     background-image: url(/images/coming-soon-istr.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 361px;
+    justify-content: space-evenly;
+    text-align: center;
 }
+    header{
+        display: inline-block;
+    }
+
+        .logo{
+            width: 24px;
+            height: 24px;
+            margin-bottom: 10px;
+        }
+
+        h1{
+            font-size: 20px;
+            text-transform: uppercase;   
+        }
+
+        p{
+            color: #b0b6b1;
+            font-size: 11px;
+            width: 312px;
+            margin-left: calc((1200px - 312px) / 2);
+        }
+
+    .time{
+        display: flex;
+        flex-direction: row;
+        width: 270px;
+        justify-content: space-evenly;
+        margin-left: calc((1200px - 270px) / 2);
+    }
+        .number{
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .text{
+            font-size:5px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        .emailas{
+            display: flex;
+            flex-direction: column;
+            width: 266px;
+            margin-left: calc((1200px - 266px) / 2);
+            text-align: left;
+        }
+
+            input{
+                background-color: transparent;
+                border-bottom:1px white solid;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                
+            }
+            label{
+                font-size: 6px;
+                line-height: 1px;
+                color: #ffffff;
+            }
+
+        .btn{
+            display: inline-block;
+            background-color: red;
+            width: 94px;
+            font-size: 7px;
+            color: white;
+            padding: 10px 3px;
+            text-decoration: none;
+            text-transform: capitalize;
+
+        }
+            
+            
+
+
